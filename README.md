@@ -32,7 +32,7 @@ cd RestaurantApp/RestaurantApp.API
 Dans visual studio, Ouvrir Package Manager Console et lancer les commandes suivantes:
 
 ```bash
-add migration YourCustomEntityChanges
+add-migration YourCustomEntityChanges
 update-database
 ```
 
@@ -43,6 +43,11 @@ Lancer l'application sur local
 ```bash
 cd RestaurantApp/RestaurantApp.API
 dotnet run
+```
+Mettre ce URL dans le navigateur pour la documentation des API's avec swagger
+
+```bash
+https://localhost:7189/swagger/index.html
 ```
 Executer les tests
 
